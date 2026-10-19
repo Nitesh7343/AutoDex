@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["chrome"]
+  },
+  "files": [".wxt/wxt.d.ts"],
+  "include": ["entrypoints/**/*.ts", "entrypoints/**/*.tsx", "src/**/*.ts"]
+}
