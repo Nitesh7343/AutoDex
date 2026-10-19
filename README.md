@@ -6,11 +6,11 @@ AutoDex is a browser extension that saves your application details in one profil
 
 Download the latest release for your browser:
 
-- [Chrome (ZIP)](https://github.com/YOUR_GITHUB_USERNAME/AutoDex/releases/latest/download/autodex-0.1.0-chrome.zip)
-- [Microsoft Edge (ZIP)](https://github.com/YOUR_GITHUB_USERNAME/AutoDex/releases/latest/download/autodex-0.1.0-edge.zip)
-- [All releases](https://github.com/YOUR_GITHUB_USERNAME/AutoDex/releases)
+- [Chrome (ZIP)](https://github.com/Nitesh7343/AutoDex/releases/latest/download/autodex-0.1.0-chrome.zip)
+- [Microsoft Edge (ZIP)](https://github.com/Nitesh7343/AutoDex/releases/latest/download/autodex-0.1.0-edge.zip)
+- [All releases](https://github.com/Nitesh7343/AutoDex/releases)
 
-> Replace `YOUR_GITHUB_USERNAME` in these links with your GitHub username. The download links will work after you create a GitHub Release and upload the matching ZIP files. See [Publishing a release](#publishing-a-release).
+> The ZIP download links will work after you create a GitHub Release and upload the matching ZIP files. See [Publishing a release](#publishing-a-release).
 
 ## Features
 
@@ -46,7 +46,7 @@ Use the links section in the popup to open or copy a saved profile/document link
 Requirements: Node.js and npm.
 
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/AutoDex.git
+git clone https://github.com/Nitesh7343/AutoDex.git
 cd AutoDex
 npm install
 npm run typecheck
@@ -66,7 +66,7 @@ The packages are written to `.output/autodex-0.1.0-chrome.zip` and `.output/auto
 
 ## Publishing a release
 
-1. Push this project to a GitHub repository named `AutoDex` (or update the links above if you choose a different name).
+1. Push this project to the [AutoDex GitHub repository](https://github.com/Nitesh7343/AutoDex).
 2. Build both ZIPs using the commands above.
 3. On GitHub, open the repository's **Releases** page and choose **Draft a new release**.
 4. Create a version tag such as `v0.1.0`, then attach `autodex-0.1.0-chrome.zip` and `autodex-0.1.0-edge.zip` from `.output`.
