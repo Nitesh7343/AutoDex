@@ -6,11 +6,11 @@ AutoDex is a browser extension that saves your application details in one profil
 
 Download the latest release for your browser:
 
-- [Chrome (ZIP)](https://github.com/Nitesh7343/AutoDex/releases/latest/download/autodex-0.1.0-chrome.zip)
-- [Microsoft Edge (ZIP)](https://github.com/Nitesh7343/AutoDex/releases/latest/download/autodex-0.1.0-edge.zip)
+- [Chrome (ZIP)](https://github.com/Nitesh7343/AutoDex/raw/refs/heads/main/downloads/autodex-0.1.0-chrome.zip)
+- [Microsoft Edge (ZIP)](https://github.com/Nitesh7343/AutoDex/raw/refs/heads/main/downloads/autodex-0.1.0-edge.zip)
 - [All releases](https://github.com/Nitesh7343/AutoDex/releases)
 
-> The ZIP download links will work after you create a GitHub Release and upload the matching ZIP files. See [Publishing a release](#publishing-a-release).
+> The ZIPs are stored in this repository, so the download links work without a separate GitHub Release. See [Publishing a release](#publishing-a-release) if you want to publish versioned release notes later.
 
 ## Features
 
@@ -62,7 +62,7 @@ npm run zip
 npm run zip -- -b edge
 ```
 
-The packages are written to `.output/autodex-0.1.0-chrome.zip` and `.output/autodex-0.1.0-edge.zip`.
+The packages are written to `.output/autodex-0.1.0-chrome.zip` and `.output/autodex-0.1.0-edge.zip`. The current downloadable copies are in [`downloads/`](downloads/).
 
 ## Publishing a release
 
@@ -70,7 +70,7 @@ The packages are written to `.output/autodex-0.1.0-chrome.zip` and `.output/auto
 2. Build both ZIPs using the commands above.
 3. On GitHub, open the repository's **Releases** page and choose **Draft a new release**.
 4. Create a version tag such as `v0.1.0`, then attach `autodex-0.1.0-chrome.zip` and `autodex-0.1.0-edge.zip` from `.output`.
-5. Publish the release. The download links at the top will then point to those files.
+5. Publish the release. You can then update the download links at the top to point to that release's assets if you prefer.
 
 ## Development
 
